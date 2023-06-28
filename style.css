@@ -1,0 +1,374 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+}
+
+
+header hr{
+    width: 400px;
+}
+
+.colored-hr {
+    border-top: 1px solid #1c1c1c; 
+}
+
+#title {
+    font-size: 25px;
+    font-family: 'Lucida Console', monospace;
+    font-weight: 500;
+}
+
+#subtitle {
+
+    font-size: 15px;
+    font-family: 'Monaco', monospace;
+}
+
+
+
+.membros{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ~~~~ KAKASHI ~~~~ */
+
+.kakashi {
+    position: relative;
+    width: 260px;
+    border-radius: 20px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.kakashi::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid white;
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+
+.kakashi:hover::before {
+    opacity: 0;
+}
+
+.kakashi:hover{
+    background-color: #99A98F;
+    opacity: 1;
+}
+
+.kakashi h1{
+    color: #ececec;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Monaco', monospace;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.kakashi:hover h1 {
+    font-size: 25px;
+    color: #1c1c1c;
+}
+
+.kakashi p{
+    color: #1c1c1c;
+    margin: 15px;
+    font-size: 0px;
+    font-family: 'Monaco', monospace;
+    text-align: justify;
+    opacity: 0;
+    transition: opacity 0.3s, font-size 0.1s;
+}
+
+.kakashi:hover p {
+    opacity: 1;
+    font-size: 12px;
+}
+
+
+
+.kakashi img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #1c1c1c;
+    transition: border-radius 0.3s, width 0.3s, height 0.3s;
+}
+
+.kakashi:hover img {
+    border-radius: 25px;
+    width: 210px;
+    height: 210px;
+}
+
+/* ~~~~ NARUTO ~~~~ */
+
+.naruto {
+    position: relative;
+    width: 260px;
+    border-radius: 20px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+
+}
+
+.naruto::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid white;
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+
+.naruto:hover::before {
+    opacity: 0;
+}
+
+.naruto:hover{
+    background-color: #e0a56d;
+    opacity: 1;
+}
+
+.naruto h1{
+    color: #ececec;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Monaco', monospace;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.naruto:hover h1 {
+    font-size: 25px;
+    color: #1c1c1c;
+}
+
+.naruto p{
+    color: #1c1c1c;
+    margin: 15px;
+    font-size: 0px;
+    font-family: 'Monaco', monospace;
+    text-align: justify;
+    opacity: 0;
+    transition: opacity 0.3s, font-size 0.1s;
+}
+
+.naruto:hover p {
+    opacity: 1;
+    font-size: 12px;
+}
+
+
+
+.naruto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #1c1c1c;
+    transition: border-radius 0.3s, width 0.3s, height 0.3s;
+}
+
+.naruto:hover img {
+    border-radius: 25px;
+    width: 210px;
+    height: 210px;
+}
+
+/* ~~~~ SASUKE ~~~~ */
+
+.sasuke {
+    position: relative;
+    width: 260px;
+    border-radius: 20px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+
+}
+
+.sasuke::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid white;
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+
+.sasuke:hover::before {
+    opacity: 0;
+}
+
+.sasuke:hover{
+    background-color: #5270c2;
+    opacity: 1;
+}
+
+.sasuke h1{
+    color: #ececec;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Monaco', monospace;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.sasuke:hover h1 {
+    font-size: 25px;
+    color: #1c1c1c;
+}
+
+.sasuke p{
+    color: #1c1c1c;
+    margin: 15px;
+    font-size: 0px;
+    font-family: 'Monaco', monospace;
+    text-align: justify;
+    opacity: 0;
+    transition: opacity 0.3s, font-size 0.1s;
+}
+
+.sasuke:hover p {
+    opacity: 1;
+    font-size: 12px;
+}
+
+
+
+.sasuke img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #1c1c1c;
+    transition: border-radius 0.3s, width 0.3s, height 0.3s;
+}
+
+.sasuke:hover img {
+    border-radius: 25px;
+    width: 210px;
+    height: 210px;
+}
+
+
+/* ~~~~ SAKURA ~~~~ */
+
+.sakura {
+    position: relative;
+    width: 260px;
+    border-radius: 20px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+
+}
+
+.sakura::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid white;
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+
+.sakura:hover::before {
+    opacity: 0;
+}
+
+.sakura:hover{
+    background-color: 	#fcd1d7;
+    opacity: 1;
+}
+
+.sakura h1{
+    color: #ececec;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Monaco', monospace;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+
+
+.sakura:hover h1 {
+    font-size: 25px;
+    color: #1c1c1c;
+}
+
+.sakura p{
+    color: #1c1c1c;
+    margin: 15px;
+    font-size: 0px;
+    font-family: 'Monaco', monospace;
+    text-align: justify;
+    opacity: 0;
+    transition: opacity 0.3s, font-size 0.1s;
+}
+
+.sakura:hover p {
+    opacity: 1;
+    font-size: 12px;
+}
+
+
+
+.sakura img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #1c1c1c;
+    transition: border-radius 0.3s, width 0.3s, height 0.3s;
+}
+
+.sakura:hover img {
+    border-radius: 25px;
+    width: 210px;
+    height: 210px;
+}
